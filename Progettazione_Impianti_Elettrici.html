@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Francesco D'Andria | Impianti Elettrici</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: url('Immagine WhatsApp 2025-04-05 ore 16.24.52_9e0e075d.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    nav ul li { margin: 0 1rem; }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    h2 { color: #ffcc00; margin-bottom: 1rem; }
+    footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+    img.logo { width: 120px; margin-bottom: 1rem; }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background: #ffcc00;
+      color: #000;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .services ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo2.jpg" alt="Logo Francesco D'Andria" class="logo" />
+    <h1>Per. Ind. Laureato Francesco D'Andria</h1>
+    <p>Progettazione Impianti Elettrici Civili e Industriali</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#chi">Chi sono</a></li>
+      <li><a href="#servizi">Servizi</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+    </ul>
+  </nav>
+
+  <section id="chi">
+    <h2>Chi sono</h2>
+    <p>Sono un libero professionista specializzato nella progettazione di impianti elettrici civili e industriali. Offro servizi tecnici completi: dalla consulenza alla realizzazione del progetto, fino alla direzione lavori e alle pratiche per la conformità normativa (CEI, DM 37/08). Opero principalmente a Monza e Brianza e nelle province limitrofe, collaborando con privati, imprese edili e studi tecnici.</p>
+    <p>Massima attenzione alla sicurezza, all’efficienza energetica e alle esigenze del cliente. Disponibile per sopralluoghi e preventivi personalizzati.</p>
+  </section>
+
+  <section id="servizi" class="services">
+    <h2>Servizi</h2>
+    <ul>
+      <li>Progettazione impianti elettrici civili</li>
+      <li>Progettazione impianti elettrici industriali</li>
+      <li>Direzione lavori</li>
+      <li>Dichiarazioni di conformità e relazioni tecniche</li>
+      <li>Adeguamenti impianti esistenti</li>
+    </ul>
+  </section>
+
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <p>Email: <a href="mailto:per.ind.dandria@gmail.com" style="color:#ffcc00;">per.ind.dandria@gmail.com</a></p>
+    <p>Telefono: <a href="tel:+393892466913" style="color:#ffcc00;">389 246 6913</a></p>
+    <p>Zona operativa: Monza e Brianza</p>
+
+    <h3>Scrivimi un messaggio</h3>
+    <form onsubmit="event.preventDefault(); alert('Messaggio inviato!'); this.reset();">
+      <input type="text" name="nome" placeholder="Il tuo nome" required />
+      <input type="email" name="email" placeholder="La tua email" required />
+      <textarea name="messaggio" rows="5" placeholder="Scrivi il tuo messaggio..." required></textarea>
+      <button type="submit">Invia</button>
+    </form>
+  </section>
+
+  <footer>
+    <img src="Logo2.jpg" alt="Sigillo" class="logo" />
+    <p>&copy; 2025 Francesco D'Andria | Perito Industriale Laureato - Monza e Brianza</p>
+    <p>Partita IVA: 14018500968</p>
+  </footer>
+</body>
+</html>
